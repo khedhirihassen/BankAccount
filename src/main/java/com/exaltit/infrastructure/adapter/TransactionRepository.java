@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface TransactionRepository extends JpaRepository<AccountTransactionEntity, Long> {
 
-    List<AccountTransactionEntity> getTransactionByAccountAccountNo(Long accountNo);
+    List<AccountTransactionEntity> getAccountTransactionEntitiesByAccount_AccountNo(Long accountNo);
 
 }

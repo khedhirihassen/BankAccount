@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.exaltit.BankAccountApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.234 s - in com.exaltit.BankAccountApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.662 s - in com.exaltit.BankAccountApplicationTests

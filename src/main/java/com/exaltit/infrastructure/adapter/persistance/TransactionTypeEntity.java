@@ -1,6 +1,6 @@
 package com.exaltit.infrastructure.adapter.persistance;
 
-public enum TransactionType {
+public enum TransactionTypeEntity {
 
     DEPOSIT,
     WITHDRAW;

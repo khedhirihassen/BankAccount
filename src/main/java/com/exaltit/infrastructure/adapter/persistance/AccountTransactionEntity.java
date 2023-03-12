@@ -1,6 +1,5 @@
 package com.exaltit.infrastructure.adapter.persistance;
 
-import com.exaltit.domain.model.Account;
 import com.exaltit.domain.model.TransactionType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;

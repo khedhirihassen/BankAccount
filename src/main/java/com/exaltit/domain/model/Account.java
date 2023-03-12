@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Getter
 @Setter
@@ -15,8 +14,6 @@ public class Account {
     private Long accountNo;
 
     private BigDecimal balance;
-
-    private List<AccountTransaction> accountTransactions;
 
     public Account(Long accountNo, BigDecimal balance) {
         this.accountNo = accountNo;

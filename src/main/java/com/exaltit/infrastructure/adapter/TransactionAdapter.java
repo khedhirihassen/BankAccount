@@ -22,7 +22,7 @@ public class TransactionAdapter implements SaveTransaction, LoadTransaction {
     public List<AccountTransaction> loadTransaction(Long accountNo) {
         //return serviceRepository.getTransactionByAccountAccountNo(accountNo);
         List<AccountTransactionEntity> transactionEntityList = transactionRepository
-                .getTransactionByAccountAccountNo(accountNo);
+                .getAccountTransactionEntitiesByAccount_AccountNo(accountNo);
 
         return TransactionMapper.INSTANCE.accountTransactionEntityListToAccountTransactionList(transactionEntityList);
     }

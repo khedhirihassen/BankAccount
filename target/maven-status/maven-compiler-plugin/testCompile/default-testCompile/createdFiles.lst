@@ -1,1 +1,3 @@
 com\exaltit\BankAccountApplicationTests.class
+com\exaltit\domain\model\AccountTest.class
+com\exaltit\domain\service\DomainAccountServiceTest.class

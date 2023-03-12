@@ -2,9 +2,7 @@ package com.exaltit.infrastructure.config;
 
 import com.exaltit.domain.service.AccountService;
 import com.exaltit.infrastructure.adapter.AccountAdapter;
-import com.exaltit.infrastructure.adapter.AccountRepository;
 import com.exaltit.infrastructure.adapter.TransactionAdapter;
-import com.exaltit.infrastructure.adapter.TransactionRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
